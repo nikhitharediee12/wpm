@@ -1,0 +1,37 @@
+body {
+    background-color: #d5f3d5; /* Light green */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #3c763d; /* Darker shade of green */
+  }
+  
+  p {
+    color: #555; /* Dark gray for readability */
+  }
+  
+  button {
+    background-color: #3c763d; /* Button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #2a5b2a; /* Darker shade on hover */
+  }
+  

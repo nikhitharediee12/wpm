@@ -1,6 +1,6 @@
 // models/db.js
 const mongoose = require('mongoose');
-const dbURI = 'mongodb://localhost:27017/loc8r'; 
+const dbURI = 'mongodb://localhost:27017/foodie'; 
 mongoose.connect(dbURI);
 
 mongoose.connection.on('connected', () => {

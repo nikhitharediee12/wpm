@@ -1,6 +1,10 @@
-extends layout
-
-block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+//- app_server/views/error.pug
+doctype html
+html
+  head
+    title= title  // This title will be set by the error handler
+    link(rel='stylesheet', href='/css/styles.css') // Link to your CSS file
+  body
+    h1= message       // Displays the error message
+    h2= error.status  // Displays the HTTP error status
+    pre #{error.stack} // Displays the error stack trace (useful for debugging)

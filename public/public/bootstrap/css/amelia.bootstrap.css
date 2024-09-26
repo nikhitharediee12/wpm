@@ -86,8 +86,8 @@ hr {
 }
 
 mark {
-  color: #000;
-  background: #ff0;
+  color: #181aab;
+  background: rgb(174, 0, 255);
 }
 
 code,
@@ -141,7 +141,7 @@ figure {
 fieldset {
   padding: 0.35em 0.625em 0.75em;
   margin: 0 2px;
-  border: 1px solid #c0c0c0;
+  border: 1px solid #381063;
 }
 
 legend {
@@ -306,7 +306,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #ffffff;
-  background-color: #108a93;
+  background-color: #811093;
 }
 
 input,
@@ -550,7 +550,7 @@ h4 small,
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #0d747c;
+  border-bottom: 1px solid #187c0d;
 }
 
 ul,
